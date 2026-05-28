@@ -140,3 +140,23 @@ SELECT
 FROM student_dropout
 GROUP BY region
 ORDER BY avg_risk_score DESC;
+
+
+-- ============================================
+-- QUERY 10: 21-25 is the largest age group on the platform. But is it also the group that drops out most? 
+-- Or does a smaller group have a higher dropout RATE?
+-- ============================================
+SELECT 
+    CASE 
+        WHEN age BETWEEN 17 AND 20 THEN '17-20'
+        WHEN age BETWEEN 21 AND 25 THEN '21-25'
+        WHEN age BETWEEN 26 AND 30 THEN '26-30'
+        ELSE '30+'
+    END AS age_group,
+    COUNT(*) AS total_students,
+    SUM(CASE WHEN label_name = 'dropped' THEN 1 ELSE 0 END) AS dropped_count,
+    ROUND(SUM(CASE WHEN label_name = 'dropped' THEN 1 ELSE 0 END) 
+        * 100.0 / COUNT(*), 2) AS dropout_rate_pct
+FROM student_dropout
+GROUP BY age_group
+ORDER BY dropout_rate_pct DESC;
