@@ -33,4 +33,4 @@ MySQL | Python (coming) | Power BI (coming)
 
 ---
 **By Shatadal Chakraborty**  
-[LinkedIn Profile Link] | [GitHub Profile Link]
+[https://www.linkedin.com/in/shatadal-chakraborty-569903212/] | [https://github.com/Shatadal17]
