@@ -42,6 +42,12 @@ Conclusion: This is a systemic platform engagement issue.
 Region-specific campaigns will have minimal impact.
 Platform-wide onboarding and engagement improvements needed.
 
+### Finding 6: Youngest students drop out most
+17-20 age group has highest dropout RATE (36.19%)
+despite not being the largest group by count.
+21-25 year olds have most dropouts by count (584)
+but lower rate (30.62%).
+
 ## Business Recommendations
 
 1. IMMEDIATE: Flag any student with login < 2/week for automated outreach
@@ -49,6 +55,7 @@ Platform-wide onboarding and engagement improvements needed.
 3. SEASONAL: Pre-emptive retention campaign every September and March
 4. ENROLLMENT: Prioritize post-exam enrollment campaigns (December/January)
 5. STRATEGY: Fix platform engagement globally, not region by region
+6. Design specific onboarding support for 17-20 age group. They are likely first-time online learners with less self-discipline and study structure.
 
 ## SQL Skills Demonstrated
 - GROUP BY, HAVING, aggregate functions
