@@ -24,12 +24,12 @@ at risk, and WHEN to intervene to save them.
 
 ## Files
 - `sql/edtech_dropout_complete_analysis.sql` — 9 business queries
-- `SQL_Analysis_Summary.md` — Complete findings document
-- `notebooks/` — Python EDA (coming soon)
+- `SQL_Analysis_Summary.md` — Complete findings and recommendations
+- `notebooks/student_dropout_eda.ipynb` — Python EDA with 6 visualizations
 - `dashboards/` — Power BI Dashboard (coming soon)
 
 ## Tools Used
-MySQL | Python (coming) | Power BI (coming)
+MySQL | Python (Pandas, Matplotlib, Seaborn) | Power BI (coming)
 
 ---
 **By Shatadal Chakraborty**  
