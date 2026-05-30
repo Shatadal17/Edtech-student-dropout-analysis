@@ -29,7 +29,10 @@ at risk, and WHEN to intervene to save them.
 - `dashboards/` — Power BI Dashboard (coming soon)
 
 ## Tools Used
-MySQL | Python (Pandas, Matplotlib, Seaborn) | Power BI (coming)
+MySQL | Python (Pandas, Matplotlib, Seaborn, Scikit-learn) | Power BI (coming)
+
+## Model Performance
+- Logistic Regression: 79% accuracy, 86% recall for dropout detection
 
 ---
 **By Shatadal Chakraborty**  
